@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>The world this week, seen from every region</h1>
+<p>Each week an automated pipeline reads public headlines from outlets across six regions, groups them into stories,
+and summarizes each story with an AI model, including <strong>how different regions frame it</strong>. Every claim links to its sources.</p>
+{% if briefs %}
+  <h3>Weekly briefs</h3>
+  <ul>
+  {% for b in briefs %}
+    <li><a href="{{ root }}/briefs/{{ b.week }}.html">{{ b.week }}</a>
+      <span class="small">· {{ b.period_start }} to {{ b.period_end }} · {{ b.stories|length }} stories · {{ b.items_analyzed }} headlines analyzed</span></li>
+  {% endfor %}
+  </ul>
+{% else %}
+  <p class="meta">The first brief will appear here soon.</p>
+{% endif %}
+{% endblock %}

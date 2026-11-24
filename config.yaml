@@ -1,0 +1,10 @@
+# Gemini model: check the current free-tier model name in Google AI Studio (week 1).
+# Can be overridden with the GEMINI_MODEL environment variable.
+model: gemini-flash-lite-latest
+
+window_days: 7          # days of headlines used for one weekly brief
+cluster_threshold: 0.3  # headline similarity (0-1) to group two articles
+min_regions: 2          # a story must be covered by at least this many regions
+max_stories: 12         # stories per weekly brief
+max_items_per_story: 12 # headlines sent to Gemini per story
+pause_seconds: 6        # pause between Gemini calls (stay under free-tier requests/minute)

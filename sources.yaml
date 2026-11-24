@@ -1,0 +1,48 @@
+# Candidate feeds. ALL `verified: false` until checked in week 1 (feeds change or disappear).
+# region: global | asia_pacific | mena | africa | europe_eurasia | americas
+# ownership: independent | private | public | state_funded | ngo
+# State-funded outlets are off by default (enabled: false) and must stay clearly labeled if turned on.
+sources:
+  # --- Global / multilateral ---
+  - {name: BBC World, url: "http://feeds.bbci.co.uk/news/world/rss.xml", region: global, ownership: public, verified: false}
+  - {name: Al Jazeera English, url: "https://www.aljazeera.com/xml/rss/all.xml", region: global, ownership: state_funded, verified: false}
+  - {name: DW, url: "https://rss.dw.com/rdf/rss-en-all", region: global, ownership: public, verified: false}
+  - {name: France 24, url: "https://www.france24.com/en/rss", region: global, ownership: public, verified: false}
+  - {name: UN News, url: "https://news.un.org/feed/subscribe/en/news/all/rss.xml", region: global, ownership: ngo, verified: false}
+  - {name: International Crisis Group, url: "https://www.crisisgroup.org/rss.xml", region: global, ownership: ngo, verified: false}
+
+  # --- Asia-Pacific ---
+  - {name: Straits Times (World), url: "https://www.straitstimes.com/news/world/rss.xml", region: asia_pacific, ownership: private, verified: false}
+  - {name: South China Morning Post, url: "https://www.scmp.com/rss/91/feed", region: asia_pacific, ownership: private, verified: false}
+  - {name: The Hindu (International), url: "https://www.thehindu.com/news/international/feeder/default.rss", region: asia_pacific, ownership: private, verified: false}
+  - {name: Dawn (Pakistan), url: "https://www.dawn.com/feeds/home", region: asia_pacific, ownership: private, verified: false}
+  - {name: ABC Australia (World), url: "https://www.abc.net.au/news/feed/2942460/rss.xml", region: asia_pacific, ownership: public, verified: false}
+  - {name: NHK World-Japan, url: "https://www3.nhk.or.jp/nhkworld/en/news/feeds/", region: asia_pacific, ownership: public, verified: false}
+
+  # --- Middle East & North Africa ---
+  - {name: Middle East Eye, url: "https://www.middleeasteye.net/rss", region: mena, ownership: independent, verified: false}
+  - {name: Times of Israel, url: "https://www.timesofisrael.com/feed/", region: mena, ownership: independent, verified: false}
+  - {name: Daily Sabah, url: "https://www.dailysabah.com/rssFeed/world", region: mena, ownership: private, verified: false}
+  - {name: Arab News, url: "https://www.arabnews.com/rss.xml", region: mena, ownership: private, verified: false}
+
+  # --- Africa ---
+  - {name: Africanews, url: "https://www.africanews.com/feed/rss", region: africa, ownership: private, verified: false}
+  - {name: allAfrica, url: "https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf", region: africa, ownership: private, verified: false}
+  - {name: Daily Maverick, url: "https://www.dailymaverick.co.za/dmrss/", region: africa, ownership: independent, verified: false}
+  - {name: The East African, url: "https://www.theeastafrican.co.ke/tea/rss", region: africa, ownership: private, verified: false}
+
+  # --- Europe & Eurasia ---
+  - {name: Euractiv, url: "https://www.euractiv.com/feed/", region: europe_eurasia, ownership: independent, verified: false}
+  - {name: The Moscow Times, url: "https://www.themoscowtimes.com/rss/news", region: europe_eurasia, ownership: independent, verified: false}
+  - {name: Kyiv Independent, url: "https://kyivindependent.com/news-archive/rss", region: europe_eurasia, ownership: independent, verified: false}
+  - {name: Politico Europe, url: "https://www.politico.eu/feed/", region: europe_eurasia, ownership: private, verified: false}
+
+  # --- Americas ---
+  - {name: NPR World, url: "https://feeds.npr.org/1004/rss.xml", region: americas, ownership: public, verified: false}
+  - {name: MercoPress, url: "https://en.mercopress.com/rss", region: americas, ownership: private, verified: false}
+  - {name: Americas Quarterly, url: "https://www.americasquarterly.org/feed/", region: americas, ownership: independent, verified: false}
+  - {name: CBC World, url: "https://www.cbc.ca/webfeed/rss/rss-world", region: americas, ownership: public, verified: false}
+
+  # --- State-funded, OFF by default (turn on only with clear labeling) ---
+  - {name: TASS (English), url: "https://tass.com/rss/v2.xml", region: europe_eurasia, ownership: state_funded, enabled: false, verified: false}
+  - {name: Xinhua (English), url: "http://www.xinhuanet.com/english/rss/worldrss.xml", region: asia_pacific, ownership: state_funded, enabled: false, verified: false}

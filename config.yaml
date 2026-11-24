@@ -1,6 +1,6 @@
 # Gemini model: check the current free-tier model name in Google AI Studio (week 1).
 # Can be overridden with the GEMINI_MODEL environment variable.
-model: gemini-flash-lite-latest
+model: gemini-3.5-flash-lite
 
 window_days: 7          # days of headlines used for one weekly brief
 cluster_threshold: 0.3  # headline similarity (0-1) to group two articles

@@ -1,0 +1,45 @@
+name: Weekly brief
+
+on:
+  schedule:
+    - cron: "0 10 * * 0"   # Sunday 10:00 UTC = 18:00 Singapore
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m pytest -q
+        env:
+          PYTHONPATH: src
+      - name: Generate the brief with Gemini
+        run: python -m globalwatch brief
+        env:
+          PYTHONPATH: src
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - name: Build the website
+        run: python -m globalwatch site
+        env:
+          PYTHONPATH: src
+      # First weeks: a Pull Request lets a human review the brief before it goes live.
+      # Once the evaluation rubric is passed, replace this step with a direct commit to main.
+      - name: Open a Pull Request for review
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: brief/auto
+          commit-message: "brief: weekly brief"
+          title: "Weekly brief: review before publishing"
+          body: "Automatically generated. Check the summaries against the linked sources, then merge to publish."
+          add-paths: |
+            data/briefs
+            docs

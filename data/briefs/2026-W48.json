@@ -2,17 +2,17 @@
  "week": "2026-W48",
  "period_start": "2026-11-19",
  "period_end": "2026-11-25",
- "generated_at": "2026-11-25T02:29:54.506849+00:00",
+ "generated_at": "2026-11-25T03:06:54.277883+00:00",
  "model": "gemini-3.5-flash-lite",
  "items_analyzed": 622,
  "stories": [
   {
    "headline": "Nvidia Reinstates Jensen Huang as CEO Following Espionage Scandal",
-   "summary": "Nvidia's board has unanimously reinstated co-founder Jensen Huang as chief executive, less than two weeks after his resignation. Huang had stepped down amid an alleged espionage scandal involving a woman suspected of spying for China. His return followed assurances from senior US government officials, including direct contacts and the involvement of US President Donald Trump and an emissary, which led to criticism from US lawmakers.",
+   "summary": "Nvidia's board has unanimously voted to reinstate co-founder Jensen Huang as chief executive, less than two weeks after his resignation. Huang had stepped down amid an alleged spy scandal involving a woman suspected of intelligence ties to China. His return followed discussions involving US government officials, including direct contacts by President Donald Trump and White House emissary Vance with the board. The decision drew sharp criticism from US lawmakers and varying international media coverage.",
    "confidence": "high",
    "key_facts": [
     {
-     "fact": "Nvidia reinstated Jensen Huang as chief executive and board member less than two weeks after his resignation.",
+     "fact": "Nvidia's board reinstated Jensen Huang as chief executive less than two weeks after his resignation.",
      "sources": [
       {
        "outlet": "Africanews",
@@ -27,6 +27,12 @@
        "region": "americas"
       },
       {
+       "outlet": "DW",
+       "title": "Nvidia reinstates former CEO Jensen Huang despite China espionage scandal",
+       "url": "https://www.dw.com/en/nvidia-reinstates-former-ceo-jensen-huang-despite-china-espionage-scandal/a-80021926?maca=en-rss-en-all-1573-rdf",
+       "region": "global"
+      },
+      {
        "outlet": "Straits Times (World)",
        "title": "What are the various US federal and state probes faced by Nvidia and Jensen Huang?",
        "url": "https://www.straitstimes.com/world/united-states/what-are-the-various-us-federal-and-state-probes-faced-by-nvidia-and-jensen-huang",
@@ -35,7 +41,7 @@
      ]
     },
     {
-     "fact": "Huang had resigned amid an alleged spy scandal involving a relationship with a woman suspected of spying for China.",
+     "fact": "Huang had previously resigned amid an alleged spy scandal involving a woman suspected of intelligence ties to China.",
      "sources": [
       {
        "outlet": "Africanews",
@@ -64,7 +70,7 @@
      ]
     },
     {
-     "fact": "The board's unanimous decision to reinstate Huang followed information and contacts from senior US government officials, including President Donald Trump.",
+     "fact": "President Donald Trump and the White House were involved in contacting or sending an emissary to the Nvidia board to ease concerns about his return.",
      "sources": [
       {
        "outlet": "MercoPress",
@@ -73,10 +79,10 @@
        "region": "americas"
       },
       {
-       "outlet": "DW",
-       "title": "Nvidia reinstates former CEO Jensen Huang despite China espionage scandal",
-       "url": "https://www.dw.com/en/nvidia-reinstates-former-ceo-jensen-huang-despite-china-espionage-scandal/a-80021926?maca=en-rss-en-all-1573-rdf",
-       "region": "global"
+       "outlet": "Straits Times (World)",
+       "title": "Trump tapped Vance as emissary to Nvidia board to ease concerns about reinstating CEO, source says",
+       "url": "https://www.straitstimes.com/world/united-states/trump-tapped-vance-as-emissary-to-nvidia-board-to-ease-concerns-about-reinstating-ceo-source-says",
+       "region": "asia_pacific"
       },
       {
        "outlet": "France 24",
@@ -99,18 +105,7 @@
      ]
     },
     {
-     "fact": "The White House used an emissary to ease concerns among Nvidia board members regarding the reinstatement.",
-     "sources": [
-      {
-       "outlet": "Straits Times (World)",
-       "title": "Trump tapped Vance as emissary to Nvidia board to ease concerns about reinstating CEO, source says",
-       "url": "https://www.straitstimes.com/world/united-states/trump-tapped-vance-as-emissary-to-nvidia-board-to-ease-concerns-about-reinstating-ceo-source-says",
-       "region": "asia_pacific"
-      }
-     ]
-    },
-    {
-     "fact": "US lawmakers from both parties criticized the decision to reinstate Huang.",
+     "fact": "US lawmakers from both parties criticized the decision to reinstate Huang as CEO.",
      "sources": [
       {
        "outlet": "Daily Maverick",
@@ -123,9 +118,22 @@
    ],
    "framing": [
     {
+     "region": "americas",
+     "region_label": "Americas",
+     "description": "Frames the reinstatement as following assurances from the US government that his return posed no national security risk.",
+     "sources": [
+      {
+       "outlet": "MercoPress",
+       "title": "Nvidia reinstates Jensen Huang as CEO after assurances from the US government",
+       "url": "https://en.mercopress.com/2026/11/23/nvidia-reinstates-jensen-huang-as-ceo-after-assurances-from-the-us-government?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+       "region": "americas"
+      }
+     ]
+    },
+    {
      "region": "africa",
      "region_label": "Africa",
-     "description": "Outlets frame the story around the reinstatement itself and the subsequent bipartisan US legislative criticism of the decision.",
+     "description": "Highlights both the reinstatement and the subsequent bipartisan criticism from US lawmakers regarding advanced AI chip access.",
      "sources": [
       {
        "outlet": "Africanews",
@@ -142,22 +150,9 @@
      ]
     },
     {
-     "region": "americas",
-     "region_label": "Americas",
-     "description": "The outlet emphasizes that the board acted after receiving assurances from the US government that the return poses no national security risk.",
-     "sources": [
-      {
-       "outlet": "MercoPress",
-       "title": "Nvidia reinstates Jensen Huang as CEO after assurances from the US government",
-       "url": "https://en.mercopress.com/2026/11/23/nvidia-reinstates-jensen-huang-as-ceo-after-assurances-from-the-us-government?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-       "region": "americas"
-      }
-     ]
-    },
-    {
      "region": "asia_pacific",
      "region_label": "Asia-Pacific",
-     "description": "Outlets focus on the timeline, white house intervention via an emissary, probes, and characterization of Huang as an indispensable tech figure.",
+     "description": "Focuses on the timeline, White House involvement via an emissary, Huang's pivotal industry role, and federal probes.",
      "sources": [
       {
        "outlet": "Straits Times (World)",
@@ -188,7 +183,7 @@
     {
      "region": "europe_eurasia",
      "region_label": "Europe & Eurasia",
-     "description": "Outlets emphasize the board's reinstatement alongside details of the espionage scandal involving a suspected Chinese intelligence asset.",
+     "description": "Reports the reinstatement while explicitly emphasizing the espionage scandal and suspected ties to Chinese intelligence.",
      "sources": [
       {
        "outlet": "Euractiv",
@@ -201,7 +196,7 @@
     {
      "region": "global",
      "region_label": "Global / multilateral",
-     "description": "Outlets highlight the unanimous board vote, the espionage scandal, and the direct intervention or involvement of President Donald Trump in brokering the return.",
+     "description": "Emphasizes the role of US President Donald Trump's intervention and direct contacts in facilitating the reversal, alongside the espionage context and office reactions.",
      "sources": [
       {
        "outlet": "DW",
@@ -324,11 +319,11 @@
   },
   {
    "headline": "Russian Strikes and Ukrainian Attacks Expand the Conflict Beyond Borders",
-   "summary": "Russian strikes targeting bridges and other locations in the Kyiv region have resulted in casualties, with reports differing on the death toll. Simultaneously, the conflict has expanded geographically, as Ukraine claimed responsibility for sinking Russian vessels in Libya and a sanctioned ship was struck in the Baltic Sea before drifting into Finnish waters.",
+   "summary": "Russian strikes in the Kyiv region and across Ukraine have resulted in fatalities and targeted bridges [0, 1, 3]. Meanwhile, Ukraine has claimed responsibility for targeting Russian vessels in Libya and the Baltic Sea, raising questions about the international spread of the conflict [2, 4].",
    "confidence": "high",
    "key_facts": [
     {
-     "fact": "Russian strikes hit the Kyiv region and targeted bridges.",
+     "fact": "Russian strikes caused fatalities and targeted bridges in the Kyiv region and across Ukraine [0, 1, 3].",
      "sources": [
       {
        "outlet": "The Hindu (International)",
@@ -351,24 +346,7 @@
      ]
     },
     {
-     "fact": "Reports on casualties from the strikes vary, with figures of 15 and 8 killed mentioned.",
-     "sources": [
-      {
-       "outlet": "The Hindu (International)",
-       "title": "Ukraine says Russian strikes kill 15 in Kyiv region",
-       "url": "https://www.thehindu.com/news/international/ukraine-says-russian-strikes-kill-several-in-kyiv-region/article71733677.ece",
-       "region": "asia_pacific"
-      },
-      {
-       "outlet": "The Moscow Times",
-       "title": "8 Killed Across Ukraine as Russia Strikes Bridges in Kyiv",
-       "url": "https://www.themoscowtimes.com/2026/11/20/3-killed-in-bridge-strikes-on-kyiv-mayor-says-a94324",
-       "region": "europe_eurasia"
-      }
-     ]
-    },
-    {
-     "fact": "Ukraine claimed responsibility for sinking a Russian warship and a cargo vessel in the Libyan port of Benghazi.",
+     "fact": "Ukraine claimed responsibility for sinking a Russian warship and a cargo vessel in the Libyan port of Benghazi [2, 4].",
      "sources": [
       {
        "outlet": "France 24",
@@ -385,7 +363,7 @@
      ]
     },
     {
-     "fact": "A sanctioned ship was struck in the Baltic Sea and strayed into Finland's waters.",
+     "fact": "A sanctioned ship was struck in the Baltic Sea and subsequently strayed into Finland's waters [2].",
      "sources": [
       {
        "outlet": "France 24",
@@ -394,24 +372,13 @@
        "region": "global"
       }
      ]
-    },
-    {
-     "fact": "The full-scale invasion is in its fifth year as Ukraine braces for another winter.",
-     "sources": [
-      {
-       "outlet": "The Hindu (International)",
-       "title": "Ukraine says Russian strikes kill 15 in Kyiv region",
-       "url": "https://www.thehindu.com/news/international/ukraine-says-russian-strikes-kill-several-in-kyiv-region/article71733677.ece",
-       "region": "asia_pacific"
-      }
-     ]
     }
    ],
    "framing": [
     {
      "region": "asia_pacific",
      "region_label": "Asia-Pacific",
-     "description": "The outlet emphasizes the human toll of nightly Russian aerial barrages in the Kyiv region as the war enters its fifth year.",
+     "description": "The outlet emphasizes Russian strikes killing people in the Kyiv region while noting ongoing nightly aerial barrages and the war's duration.",
      "sources": [
       {
        "outlet": "The Hindu (International)",
@@ -424,7 +391,7 @@
     {
      "region": "europe_eurasia",
      "region_label": "Europe & Eurasia",
-     "description": "The outlets focus on the specific casualty numbers from strikes and highlight bridges becoming strategic targets for both sides from Crimea to Kyiv.",
+     "description": "The outlet frames the conflict through regional casualties, infrastructure attacks, and bridges becoming targets for both sides.",
      "sources": [
       {
        "outlet": "The Moscow Times",
@@ -443,7 +410,7 @@
     {
      "region": "global",
      "region_label": "Global / multilateral",
-     "description": "The outlets frame the conflict through the lens of a widening war, focusing on Ukrainian operations against Russian vessels in Libya and the Baltic Sea.",
+     "description": "These outlets focus on the international spillover of the war, highlighting Ukrainian operations against Russian vessels in Libya and the Baltic Sea.",
      "sources": [
       {
        "outlet": "France 24",
@@ -506,11 +473,11 @@
   },
   {
    "headline": "Ukraine reports sinking Russian warship and hitting cargo vessel off Libya",
-   "summary": "Ukraine claims responsibility for drone attacks off the Libyan coast near Benghazi that sank a Russian warship and hit a cargo ship [0, 1, 2, 3]. The incidents drew threats from Moscow, condemnation from Libyan authorities, and raised concerns about the expanding geographic reach of the war [0, 2, 3].",
+   "summary": "Ukraine claims responsibility for drone attacks off the Libyan coast near Benghazi that sank a Russian warship and hit a cargo ship [0, 1, 2, 3]. The event drew threats from Moscow and condemnation from Libyan authorities, raising concerns about the conflict's expanding reach [2]. Media reports also estimate the Russian war death toll near 700,000 [0].",
    "confidence": "high",
    "key_facts": [
     {
-     "fact": "Ukraine stated it conducted drone attacks on Russian vessels off the Libyan coast near Benghazi [0, 1, 3].",
+     "fact": "Ukraine claimed responsibility for strikes on Russian vessels off the Libyan coast, which sank a warship and hit a cargo ship.",
      "sources": [
       {
        "outlet": "Kyiv Independent",
@@ -525,6 +492,12 @@
        "region": "global"
       },
       {
+       "outlet": "Daily Sabah",
+       "title": "Ukraine sinking Russian warship off Libya raises risk of wider war",
+       "url": "https://www.dailysabah.com/world/europe/ukraine-sinking-russian-warship-off-libya-raises-risk-of-wider-war",
+       "region": "mena"
+      },
+      {
        "outlet": "France 24",
        "title": "Ukraine claims it sank Russian warship off Libya",
        "url": "https://www.france24.com/en/ukraine-claims-it-sank-russian-warship-off-libya",
@@ -533,21 +506,9 @@
      ]
     },
     {
-     "fact": "The attacks resulted in the sinking of a Russian warship and damage to a cargo ship [0, 1, 3].",
+     "fact": "The attacks occurred near the Libyan port of Benghazi.",
      "sources": [
       {
-       "outlet": "Kyiv Independent",
-       "title": "Ukraine war latest: Russian warship sinks off Libyan coast following 'exemplary' Ukrainian drone attack",
-       "url": "https://kyivindependent.com/ukraine-war-latest-russian-warship-sinks-off-libyan-coast-following-exemplary-ukrainian-drone-attack/",
-       "region": "europe_eurasia"
-      },
-      {
-       "outlet": "BBC World",
-       "title": "Ukraine shares video of strikes on Russian ships off Libya",
-       "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
-       "region": "global"
-      },
-      {
        "outlet": "France 24",
        "title": "Ukraine claims it sank Russian warship off Libya",
        "url": "https://www.france24.com/en/ukraine-claims-it-sank-russian-warship-off-libya",
@@ -556,7 +517,7 @@
      ]
     },
     {
-     "fact": "The events drew threats from Moscow and condemnation from Libyan authorities [2].",
+     "fact": "The reported attacks drew threats from Moscow and condemnation from Libyan authorities.",
      "sources": [
       {
        "outlet": "Daily Sabah",
@@ -565,13 +526,24 @@
        "region": "mena"
       }
      ]
+    },
+    {
+     "fact": "Media reports indicate the Russian war death toll is likely near 700,000 based on leaked government data.",
+     "sources": [
+      {
+       "outlet": "Kyiv Independent",
+       "title": "Ukraine war latest: Russian warship sinks off Libyan coast following 'exemplary' Ukrainian drone attack",
+       "url": "https://kyivindependent.com/ukraine-war-latest-russian-warship-sinks-off-libyan-coast-following-exemplary-ukrainian-drone-attack/",
+       "region": "europe_eurasia"
+      }
+     ]
     }
    ],
    "framing": [
     {
      "region": "europe_eurasia",
      "region_label": "Europe & Eurasia",
-     "description": "The European outlet highlights the event as an exemplary Ukrainian drone attack and includes broader reports on Russian war casualties and nuclear developments [0].",
+     "description": "Frames the event as an exemplary Ukrainian drone attack that sank a Russian corvette, while also noting high Russian war casualties and potential nuclear developments.",
      "sources": [
       {
        "outlet": "Kyiv Independent",
@@ -584,7 +556,7 @@
     {
      "region": "global",
      "region_label": "Global / multilateral",
-     "description": "Global public outlets focus on Ukrainian video evidence and claims of striking Russian ships off Libya as a spillover of the invasion [1, 3].",
+     "description": "Presents the story by sharing video evidence and reporting claims from Ukrainian officials about the sinking of a warship and hitting of a cargo ship.",
      "sources": [
       {
        "outlet": "BBC World",
@@ -603,7 +575,7 @@
     {
      "region": "mena",
      "region_label": "Middle East & North Africa",
-     "description": "The MENA outlet emphasizes the regional risks and consequences, noting threats from Moscow and condemnation from Libyan authorities [2].",
+     "description": "Emphasizes the risks of a wider war, highlighting Moscow's threats and condemnation from Libyan authorities regarding the expanding reach of the conflict.",
      "sources": [
       {
        "outlet": "Daily Sabah",
@@ -653,8 +625,8 @@
    ]
   },
   {
-   "headline": "Russian attack on Zaporizhzhia kills two and wounds dozens",
-   "summary": "A Russian attack on the Ukrainian city of Zaporizhzhia killed two people overnight, according to regional governor Mykhailo Semikin [0, 1, 2, 3]. Sources differ on the total number of wounded, reporting figures of 22 [3], 44 [1], or dozens [2]. The strikes partially destroyed a five-story residential building [1], damaged apartments, private buildings, transport infrastructure, and cars [3], and left people potentially trapped under rubble [3].",
+   "headline": "Russian attack on Zaporizhzhia kills two people",
+   "summary": "A Russian attack on the Ukrainian city of Zaporizhzhia killed two people overnight, according to regional governor Mykhailo Semikin [0, 2, 3]. Reports vary on the number of wounded, ranging from dozens to 44 injured, with residential buildings and infrastructure damaged [1, 2, 3].",
    "confidence": "high",
    "key_facts": [
     {
@@ -687,7 +659,7 @@
      ]
     },
     {
-     "fact": "The regional governor is Mykhailo Semikin.",
+     "fact": "Regional governor Mykhailo Semikin reported the attack.",
      "sources": [
       {
        "outlet": "Straits Times (World)",
@@ -716,7 +688,7 @@
      ]
     },
     {
-     "fact": "Sources report differing numbers of wounded individuals, including 44, 22, and dozens.",
+     "fact": "Reports on the number of wounded vary, including figures of 22, about 40, and 44 injured.",
      "sources": [
       {
        "outlet": "Kyiv Independent",
@@ -739,7 +711,7 @@
      ]
     },
     {
-     "fact": "The attack partially destroyed a residential building and damaged apartments, private buildings, transport, and cars, with people possibly trapped under rubble.",
+     "fact": "The strike damaged residential buildings, including a five-story building, apartments, and infrastructure.",
      "sources": [
       {
        "outlet": "Kyiv Independent",
@@ -760,7 +732,7 @@
     {
      "region": "asia_pacific",
      "region_label": "Asia-Pacific",
-     "description": "Outlets from this region report on the casualties and damage caused by the Russian attack, citing the regional governor's statements.",
+     "description": "Outlets from the region focus on the death toll, wounded numbers, and infrastructure damage reported by officials.",
      "sources": [
       {
        "outlet": "Straits Times (World)",
@@ -779,7 +751,7 @@
     {
      "region": "europe_eurasia",
      "region_label": "Europe & Eurasia",
-     "description": "The outlet details the specific target of the attack, noting the partial destruction of a residential building and the precise number of injured people.",
+     "description": "The outlet emphasizes the specific impact on a residential building and the higher count of injured individuals.",
      "sources": [
       {
        "outlet": "Kyiv Independent",
@@ -792,7 +764,7 @@
     {
      "region": "global",
      "region_label": "Global / multilateral",
-     "description": "The outlet provides a live update framing the strikes as killing two people and wounding dozens.",
+     "description": "The outlet frames the event through a live updates format focusing on the overnight casualties and dozens of wounded.",
      "sources": [
       {
        "outlet": "France 24",
@@ -847,7 +819,7 @@
    "confidence": "high",
    "key_facts": [
     {
-     "fact": "The COP31 climate summit ended without a major agreement due to divisions over fossil fuels and finance [0, 1].",
+     "fact": "The COP31 climate summit ended without a major agreement due to divisions over fossil fuels and finance.",
      "sources": [
       {
        "outlet": "Africanews",
@@ -860,11 +832,17 @@
        "title": "COP31 ends without a major climate deal amid divisions over fossil fuels",
        "url": "https://en.mercopress.com/2026/11/23/cop31-ends-without-a-major-climate-deal-amid-divisions-over-fossil-fuels?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
        "region": "americas"
+      },
+      {
+       "outlet": "The Hindu (International)",
+       "title": "COP31 talks fail as EU, others reject any climate deal without language on a fossil fuel phase-out",
+       "url": "https://www.thehindu.com/sci-tech/energy-and-environment/cop31-fails-to-agree-on-climate-deal-in-chaotic-finale/article71731651.ece",
+       "region": "asia_pacific"
       }
      ]
     },
     {
-     "fact": "UN climate chief Simon Stiell expressed disappointment with the outcome [0].",
+     "fact": "UN climate chief Simon Stiell expressed disappointment with the summit's outcome.",
      "sources": [
       {
        "outlet": "Africanews",
@@ -875,7 +853,7 @@
      ]
     },
     {
-     "fact": "The summit took place in Antalya, Turkey, and concluded on Sunday [1].",
+     "fact": "The summit took place in Antalya, Turkey, and ended on Sunday.",
      "sources": [
       {
        "outlet": "MercoPress",
@@ -886,7 +864,7 @@
      ]
     },
     {
-     "fact": "About 130 parties, including the EU and Panama, rejected the cover text, alleging it greenwashes fossil fuels [2].",
+     "fact": "Around 130 parties, including the EU and Panama, rejected the cover text, alleging it greenwashes fossil fuels.",
      "sources": [
       {
        "outlet": "The Hindu (International)",
@@ -897,7 +875,7 @@
      ]
     },
     {
-     "fact": "India, China, and Saudi Arabia were on the other side of the divide during the talks [2].",
+     "fact": "India, China, and Saudi Arabia were positioned on the other side of the divide.",
      "sources": [
       {
        "outlet": "The Hindu (International)",
@@ -912,7 +890,7 @@
     {
      "region": "africa",
      "region_label": "Africa",
-     "description": "The African outlet highlights the summit's failure and deepening divisions over fossil fuels through the perspective of the UN climate chief [0].",
+     "description": "The African outlet emphasizes the failure to reach an agreement on fossil fuels and highlights the UN climate chief's warning about the outcome.",
      "sources": [
       {
        "outlet": "Africanews",
@@ -925,7 +903,7 @@
     {
      "region": "americas",
      "region_label": "Americas",
-     "description": "The Americas outlet emphasizes the absence of a major climate deal in Antalya, noting disagreements over fossil fuels and aid for the poorest, alongside a historical comparison to the 2009 Copenhagen summit [1].",
+     "description": "The outlet from the americas frames the conclusion around the lack of a major climate deal in Antalya, noting divisions over fossil fuels and finance for the poorest as well as comparisons to the 2009 Copenhagen summit.",
      "sources": [
       {
        "outlet": "MercoPress",
@@ -938,7 +916,7 @@
     {
      "region": "asia_pacific",
      "region_label": "Asia-Pacific",
-     "description": "The Asia-Pacific outlet focuses on specific bloc negotiations, detailing the rejection of the consensus text by the EU and others over fossil fuel phase-out language, while naming opposing nations [2].",
+     "description": "The Asia-Pacific outlet details the specific factions in the negotiations, focusing on the rejection of the consensus text by the EU and other parties over fossil fuel language versus the opposing stance of nations like India, China, and Saudi Arabia.",
      "sources": [
       {
        "outlet": "The Hindu (International)",
@@ -982,11 +960,34 @@
   },
   {
    "headline": "Ukraine President Confirms Attack on Russian Warship in Libya",
-   "summary": "Ukrainian President Volodymyr Zelenskyy stated that Ukraine conducted a surprise sea drone attack, sinking a Russian warship docked at a naval base in Libya [0, 2]. The operation occurred approximately 2,400 kilometres from Ukraine's front line [1]. Additionally, Zelensky claimed that a Russian combat helicopter and the corvette Merkury were destroyed during the weekend assault [2].",
+   "summary": "Ukrainian President Volodymyr Zelenskyy stated that Ukraine conducted a surprise attack using sea drones against a Russian warship moored at a naval base in port in Libya [0, 1, 2]. Zelenskyy reported that the corvette Merkury and a Russian combat helicopter were destroyed in the weekend operation [2]. Reports noted the location was approximately 2,400 kilometers from the front line in Ukraine [1].",
    "confidence": "high",
    "key_facts": [
     {
-     "fact": "Ukraine carried out an attack using sea drones against a Russian warship docked in Libya [0, 2].",
+     "fact": "Ukraine carried out an attack on a Russian warship moored in Libya using sea drones.",
+     "sources": [
+      {
+       "outlet": "NPR World",
+       "title": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya",
+       "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya",
+       "region": "americas"
+      },
+      {
+       "outlet": "The Hindu (International)",
+       "title": "Zelenskyy hails Ukraine's attack on a Russian warship in Libya",
+       "url": "https://www.thehindu.com/news/international/zelenskyy-hails-ukraines-attack-on-a-russian-warship-in-libya/article71735901.ece",
+       "region": "asia_pacific"
+      },
+      {
+       "outlet": "The Moscow Times",
+       "title": "Zelensky Confirms Attack Against Russian Warship in Libya",
+       "url": "https://www.themoscowtimes.com/2026/11/23/zelensky-confirms-attack-against-russian-warship-in-libya-a94346",
+       "region": "europe_eurasia"
+      }
+     ]
+    },
+    {
+     "fact": "President Volodymyr Zelenskyy confirmed the operation and stated that a Russian combat helicopter and the corvette Merkury were destroyed over the weekend.",
      "sources": [
       {
        "outlet": "NPR World",
@@ -1003,7 +1004,7 @@
      ]
     },
     {
-     "fact": "The operation took place approximately 2,400 kilometres from the front line in Ukraine [1].",
+     "fact": "The operation took place approximately 2,400 kilometres from the front line in Ukraine.",
      "sources": [
       {
        "outlet": "The Hindu (International)",
@@ -1012,24 +1013,13 @@
        "region": "asia_pacific"
       }
      ]
-    },
-    {
-     "fact": "Zelensky claimed that a combat helicopter was also destroyed along with the corvette Merkury [2].",
-     "sources": [
-      {
-       "outlet": "The Moscow Times",
-       "title": "Zelensky Confirms Attack Against Russian Warship in Libya",
-       "url": "https://www.themoscowtimes.com/2026/11/23/zelensky-confirms-attack-against-russian-warship-in-libya-a94346",
-       "region": "europe_eurasia"
-      }
-     ]
     }
    ],
    "framing": [
     {
      "region": "americas",
      "region_label": "Americas",
-     "description": "The outlet reports Zelenskyy's statements regarding the surprise sea drone attack that sank the vessel [0].",
+     "description": "The Americas outlet highlights President Zelenskyy's praise for the surprise sea drone assault that sank a Russian warship at a Libyan naval base.",
      "sources": [
       {
        "outlet": "NPR World",
@@ -1042,7 +1032,7 @@
     {
      "region": "asia_pacific",
      "region_label": "Asia-Pacific",
-     "description": "The outlet emphasizes the distance of the operation, characterizing it as a daring long-range assault by Kyiv [1].",
+     "description": "The Asia-Pacific outlet emphasizes the geographical distance of the operation, describing it as a daring long-range assault conducted far from the front lines.",
      "sources": [
       {
        "outlet": "The Hindu (International)",
@@ -1055,7 +1045,7 @@
     {
      "region": "europe_eurasia",
      "region_label": "Europe & Eurasia",
-     "description": "The outlet notes the Ukrainian president's confirmation of the attack, specifically mentioning the destruction of the corvette Merkury and a combat helicopter [2].",
+     "description": "The Europe-Eurasia outlet frames the report around Zelensky's confirmation of the attack, specifically naming the corvette Merkury and the destruction of a combat helicopter.",
      "sources": [
       {
        "outlet": "The Moscow Times",
@@ -1099,11 +1089,11 @@
   },
   {
    "headline": "Ousted Bangladesh Prime Minister Sheikh Hasina Plans December Return from Exile",
-   "summary": "Ousted former Bangladeshi Prime Minister Sheikh Hasina plans to return to Bangladesh from exile in India on December 16 [0, 3, 4, 5]. Hasina has requested a state carrier for her return [0, 5], but the Bangladeshi government stated she can only return through extradition [0, 5] and vowed to arrest her [2]. Hasina was sentenced to death in absentia last year [3] following a student-led mass uprising that ended her 15-year rule in August 2024 [4].",
+   "summary": "Ousted Bangladeshi Prime Minister Sheikh Hasina plans to return to Bangladesh from exile in India on December 16 [0, 3, 4, 5]. Hasina's spokesperson stated she aims to return on a state carrier [0, 5], while the Bangladeshi government maintains she can only return through extradition [0, 5] and vows to arrest her [2]. Hasina was sentenced to death in absentia last year [3] following a 15-year rule that ended after a student-led uprising [4].",
    "confidence": "high",
    "key_facts": [
     {
-     "fact": "Sheikh Hasina plans to return to Bangladesh from exile in India on December 16.",
+     "fact": "Ousted Prime Minister Sheikh Hasina plans to return to Bangladesh from exile in India on December 16.",
      "sources": [
       {
        "outlet": "Dawn (Pakistan)",
@@ -1132,7 +1122,7 @@
      ]
     },
     {
-     "fact": "The Bangladeshi government stated Hasina can only return through extradition and vowed to arrest her.",
+     "fact": "The Bangladeshi government states that Hasina can only return through extradition and vows to arrest her.",
      "sources": [
       {
        "outlet": "Dawn (Pakistan)",
@@ -1155,7 +1145,7 @@
      ]
     },
     {
-     "fact": "Hasina was sentenced to death in absentia last year following a crackdown.",
+     "fact": "Hasina was sentenced to death in absentia last year over a crackdown involving hundreds of deaths.",
      "sources": [
       {
        "outlet": "DW",
@@ -1166,7 +1156,7 @@
      ]
     },
     {
-     "fact": "Hasina's 15-year rule ended after a student-led mass uprising on August 5, 2024, leading to exile in India.",
+     "fact": "Hasina went into exile in India on August 5, 2024, following a student-led uprising that ended her 15-year rule.",
      "sources": [
       {
        "outlet": "The Hindu (International)",
@@ -1181,7 +1171,7 @@
     {
      "region": "asia_pacific",
      "region_label": "Asia-Pacific",
-     "description": "Outlets from this region emphasize Hasina's planned return date, her exile in India, the government's insistence on extradition and arrest, and the resulting political tension and street violence.",
+     "description": "Outlets emphasize the political tension, street violence, and the government's stance that Hasina must face an extradition treaty and arrest upon arrival.",
      "sources": [
       {
        "outlet": "Dawn (Pakistan)",
@@ -1206,7 +1196,7 @@
     {
      "region": "global",
      "region_label": "Global / multilateral",
-     "description": "Global outlets report on Hasina setting her first specific return date after two years in exile, her sentencing in absentia, and the conflicting demands regarding her transport versus extradition.",
+     "description": "Outlets focus on Hasina setting a specific return date after two years of exile, her past sentencing, and the clash between her desire to use a state carrier and Dhaka's extradition requirements.",
      "sources": [
       {
        "outlet": "BBC World",
@@ -1281,28 +1271,11 @@
   },
   {
    "headline": "International Court of Justice Finds Myanmar Guilty of Rohingya Genocide",
-   "summary": "The International Court of Justice delivered its judgment finding Myanmar responsible for genocide against the ethnic Rohingya population. Following the ruling, the United Kingdom and several other nations imposed sanctions on top Myanmar military leaders.",
+   "summary": "The International Court of Justice delivered a judgment finding Myanmar responsible for genocide against the Rohingya ethnic group [0]. Following the ruling, the UK and several other nations imposed sanctions on top Myanmar military leaders [3].",
    "confidence": "high",
    "key_facts": [
     {
-     "fact": "The International Court of Justice delivered its judgment on Thursday in the case of The Gambia v. Myanmar.",
-     "sources": [
-      {
-       "outlet": "UN News",
-       "title": "World’s top court finds Myanmar guilty of genocide against Rohingya",
-       "url": "https://news.un.org/feed/view/en/story/2026/11/1168836",
-       "region": "global"
-      },
-      {
-       "outlet": "Daily Sabah",
-       "title": "Myanmar committed genocide against Rohingya: World court",
-       "url": "https://www.dailysabah.com/world/asia-pacific/myanmar-committed-genocide-against-rohingya-world-court",
-       "region": "mena"
-      }
-     ]
-    },
-    {
-     "fact": "The court found Myanmar responsible for the crime of genocide against the ethnic Rohingya minority.",
+     "fact": "The International Court of Justice delivered a judgment finding Myanmar responsible for genocide against the Rohingya.",
      "sources": [
       {
        "outlet": "UN News",
@@ -1325,7 +1298,7 @@
      ]
     },
     {
-     "fact": "The UK and several other nations sanctioned top Myanmar military leaders after the ruling.",
+     "fact": "The UK and several other nations sanctioned top Myanmar military leaders following the ruling.",
      "sources": [
       {
        "outlet": "BBC World",
@@ -1340,7 +1313,7 @@
     {
      "region": "mena",
      "region_label": "Middle East & North Africa",
-     "description": "The MENA region outlet highlights the verdict specifically identifying the Rohingya as a Muslim minority and notes the court's order for refugees to be given safe passage home.",
+     "description": "The outlet emphasizes the historic nature of the verdict and specifies that the Rohingya are a Muslim minority.",
      "sources": [
       {
        "outlet": "Daily Sabah",
@@ -1389,12 +1362,12 @@
    ]
   },
   {
-   "headline": "Israeli strikes kill three Palestinians in Gaza",
-   "summary": "Recent Israeli strikes in Gaza have killed at least three Palestinians and wounded five others. Reports differ regarding the exact location and timing, with sources mentioning southern Gaza, Khan Younis, and Gaza City, as well as conflicting days of the week. One report states the victims were in a vehicle carrying food and World Central Kitchen documents, while others mention a location near a police station. Hamas has called for mediator action following the event.",
+   "headline": "Israeli air strike kills three Palestinians in Gaza",
+   "summary": "An Israeli air strike killed at least three Palestinians and wounded five others [0]. Reports differ on the location and context of the attack: some sources state it occurred in southern Gaza's Khan Younis near a police station [3, 4], while others report it happened in Gaza City while victims traveled in a food delivery vehicle bearing World Central Kitchen logos [1, 2]. Following the strike, Hamas urged mediators to take action [2].",
    "confidence": "medium",
    "key_facts": [
     {
-     "fact": "An Israeli strike killed at least three Palestinians and wounded five others [0, 3, 4].",
+     "fact": "An Israeli air strike killed at least three Palestinians and wounded five others.",
      "sources": [
       {
        "outlet": "Straits Times (World)",
@@ -1417,26 +1390,8 @@
      ]
     },
     {
-     "fact": "Some reports state the attack occurred in southern Gaza or Khan Younis near a police station [0, 3, 4], while another report places it in Gaza City [1, 2].",
+     "fact": "Some reports state the strike occurred near a police station in Khan Younis, southern Gaza.",
      "sources": [
-      {
-       "outlet": "Straits Times (World)",
-       "title": "Israeli air strike kills at least three Palestinians in southern Gaza, medics say",
-       "url": "https://www.straitstimes.com/world/middle-east/israeli-airstrike-kills-at-least-three-palestinians-in-southern-gaza-medics-say",
-       "region": "asia_pacific"
-      },
-      {
-       "outlet": "Daily Sabah",
-       "title": "Gaza aid mission turns deadly as Israeli strike kills 3 Palestinians",
-       "url": "https://www.dailysabah.com/world/mid-east/gaza-aid-mission-turns-deadly-as-israeli-strike-kills-3-palestinians",
-       "region": "mena"
-      },
-      {
-       "outlet": "Daily Sabah",
-       "title": "Hamas urges mediator action after Israeli strike kills 3 in Gaza",
-       "url": "https://www.dailysabah.com/world/mid-east/hamas-urges-mediator-action-after-israeli-strike-kills-3-in-gaza",
-       "region": "mena"
-      },
       {
        "outlet": "Middle East Eye",
        "title": "Israeli strike kills at least three Palestinians in southern Gaza",
@@ -1452,7 +1407,7 @@
      ]
     },
     {
-     "fact": "One report notes the victims were traveling in a food delivery vehicle carrying documents with the World Central Kitchen logo [1, 2].",
+     "fact": "Other reports state the strike hit a food delivery vehicle in Gaza City carrying World Central Kitchen logos.",
      "sources": [
       {
        "outlet": "Daily Sabah",
@@ -1469,7 +1424,7 @@
      ]
     },
     {
-     "fact": "Hamas urged mediator action and called for an urgent meeting following the strike [2].",
+     "fact": "Hamas called for urgent action from mediators following the strike.",
      "sources": [
       {
        "outlet": "Daily Sabah",
@@ -1484,7 +1439,7 @@
     {
      "region": "asia_pacific",
      "region_label": "Asia-Pacific",
-     "description": "The outlet reports the strike neutrally based on medics' accounts of casualties in southern Gaza.",
+     "description": "Outlets from this region report on the casualties citing medics without specifying the exact vehicle details mentioned elsewhere.",
      "sources": [
       {
        "outlet": "Straits Times (World)",
@@ -1497,7 +1452,7 @@
     {
      "region": "mena",
      "region_label": "Middle East & North Africa",
-     "description": "Outlets emphasize the context of a deadly aid mission involving food delivery, political calls for mediator action, and assertions of ceasefire violations.",
+     "description": "Outlets from this region emphasize specific details such as the targeted vehicle's connection to World Central Kitchen, the location near a police station, and subsequent political reactions from Hamas.",
      "sources": [
       {
        "outlet": "Daily Sabah",
@@ -1569,12 +1524,12 @@
    ]
   },
   {
-   "headline": "Iran Vows to Counter United States Naval Blockade",
-   "summary": "Iran has stated it will use all available means and tools to counter a United States naval blockade and sanctions, while warning against American aggression. Reports note that war broke out between Iran and the United States on February 28 following U.S.-Israeli strikes that killed Supreme Leader Ayatollah Ali Khamenei. Additionally, Iran indicated that reopening the Strait of Hormuz depends on Washington meeting certain conditions.",
-   "confidence": "high",
+   "headline": "Iran vows to use all means to counter U.S. blockade",
+   "summary": "Iran has stated it will use all available means and tools to counter a U.S. naval blockade and sanctions, while warning against American aggression. Reports note differing details regarding the conflict's origins and specific demands, including conditions regarding the Strait of Hormuz and oil exports.",
+   "confidence": "medium",
    "key_facts": [
     {
-     "fact": "Iran stated it will use all available means and tools to counter the U.S. naval blockade and sanctions.",
+     "fact": "Iran stated it will use all available means or tools to counter the U.S. naval blockade.",
      "sources": [
       {
        "outlet": "The Hindu (International)",
@@ -1597,7 +1552,7 @@
      ]
     },
     {
-     "fact": "War broke out between Iran and the United States on February 28 after U.S.-Israeli strikes killed Supreme Leader Ayatollah Ali Khamenei.",
+     "fact": "Line 0 reports that war broke out on February 28 when U.S.-Israeli strikes killed Supreme Leader Ayatollah Ali Khamenei.",
      "sources": [
       {
        "outlet": "The Hindu (International)",
@@ -1608,7 +1563,7 @@
      ]
     },
     {
-     "fact": "Reopening the Strait of Hormuz depends on Washington meeting conditions, according to Iran.",
+     "fact": "Line 1 mentions sanctions and states that reopening the Strait of Hormuz depends on Washington meeting certain conditions.",
      "sources": [
       {
        "outlet": "Daily Sabah",
@@ -1619,7 +1574,7 @@
      ]
     },
     {
-     "fact": "Foreign Ministry spokesperson Esmaeil Baqaei stated Tehran would not tolerate American aggression regarding oil exports.",
+     "fact": "Line 2 notes a warning against the blockade of Iranian oil exports and quotes Foreign Ministry spokesperson Esmaeil Baqaei rejecting American aggression.",
      "sources": [
       {
        "outlet": "Middle East Eye",
@@ -1634,7 +1589,7 @@
     {
      "region": "asia_pacific",
      "region_label": "Asia-Pacific",
-     "description": "The outlet focuses on Iran's pledge to use all available means to counter the U.S. blockade and notes the outbreak of war following strikes that killed the supreme leader.",
+     "description": "The Asia-Pacific outlet frames the statement in the context of an ongoing war that began with U.S.-Israeli strikes killing Iran's supreme leader.",
      "sources": [
       {
        "outlet": "The Hindu (International)",
@@ -1647,7 +1602,7 @@
     {
      "region": "mena",
      "region_label": "Middle East & North Africa",
-     "description": "Outlets emphasize Iran's vow to counter the U.S. naval blockade and sanctions, mentioning conditions for reopening the Strait of Hormuz and warnings against American aggression.",
+     "description": "Middle Eastern outlets focus specifically on Iran's vow to counter a naval blockade and sanctions, mentioning conditions on the Strait of Hormuz and opposition to the blockade of oil exports.",
      "sources": [
       {
        "outlet": "Daily Sabah",
@@ -1695,12 +1650,12 @@
    ]
   },
   {
-   "headline": "Gisèle Pelicot to sue publisher over unauthorized nude photos",
-   "summary": "Gisèle Pelicot stated she is shocked and humiliated and will pursue legal action against a publishing house and an author after nude images of her were used without permission to promote a book campaign. The publisher issued an apology for an inappropriate communication.",
+   "headline": "Gisèle Pelicot to sue publisher over nude photos in book campaign",
+   "summary": "Gisèle Pelicot expressed shock and humiliation after a publisher used unauthorized nude images of her to promote a book about coercive control. Pelicot announced plans to pursue legal action against the publisher and author, while the publisher issued an apology for the communication.",
    "confidence": "high",
    "key_facts": [
     {
-     "fact": "Gisèle Pelicot announced legal action against Tinbad publishing house and an author [0], identified as a French feminist icon and worldwide symbol against sexual violence [1].",
+     "fact": "Gisèle Pelicot announced she will pursue legal action against Tinbad publishing house and the author [0], or a publisher [1].",
      "sources": [
       {
        "outlet": "Straits Times (World)",
@@ -1717,30 +1672,7 @@
      ]
     },
     {
-     "fact": "The legal action follows the unauthorized use and distribution of nude images of Pelicot to publicize a book campaign [0, 1, 2].",
-     "sources": [
-      {
-       "outlet": "Straits Times (World)",
-       "title": "Gisele Pelicot ‘shocked’ after publisher uses nude images in book campaign",
-       "url": "https://www.straitstimes.com/world/europe/gisele-pelicot-shocked-after-publisher-uses-nude-images-in-book-campaign",
-       "region": "asia_pacific"
-      },
-      {
-       "outlet": "France 24",
-       "title": "'Deeply shocked': Gisèle Pelicot to sue publisher after nude photos used in book campaign",
-       "url": "https://www.france24.com/en/france/20261123-deeply-shocked-gis%C3%A8le-pelicot-sue-publisher-nude-photos-used-book-campaign",
-       "region": "global"
-      },
-      {
-       "outlet": "BBC World",
-       "title": "Gisèle Pelicot 'humiliated' after nude photos sent to media to promote book",
-       "url": "https://www.bbc.co.uk/news/articles/cm3eg502nxw2o?at_medium=RSS&at_campaign=rss",
-       "region": "global"
-      }
-     ]
-    },
-    {
-     "fact": "Pelicot described herself as shocked [0, 1] and humiliated [2].",
+     "fact": "Pelicot stated she was shocked [0] or deeply shocked [1] and humiliated [2] after nude images were used in a book campaign [0, 1] and sent to media [2].",
      "sources": [
       {
        "outlet": "Straits Times (World)",
@@ -1763,7 +1695,7 @@
      ]
     },
     {
-     "fact": "The book is an essay on coercive control [2].",
+     "fact": "The publisher of an essay on coercive control apologized for an inappropriate communication [2].",
      "sources": [
       {
        "outlet": "BBC World",
@@ -1774,12 +1706,12 @@
      ]
     },
     {
-     "fact": "The publisher apologized for an unfortunate and inappropriate communication [2].",
+     "fact": "France 24 identifies Pelicot as a French feminist icon and worldwide symbol against sexual violence from 2024 rape trials involving her husband and other men [1].",
      "sources": [
       {
-       "outlet": "BBC World",
-       "title": "Gisèle Pelicot 'humiliated' after nude photos sent to media to promote book",
-       "url": "https://www.bbc.co.uk/news/articles/cm3eg502nxw2o?at_medium=RSS&at_campaign=rss",
+       "outlet": "France 24",
+       "title": "'Deeply shocked': Gisèle Pelicot to sue publisher after nude photos used in book campaign",
+       "url": "https://www.france24.com/en/france/20261123-deeply-shocked-gis%C3%A8le-pelicot-sue-publisher-nude-photos-used-book-campaign",
        "region": "global"
       }
      ]
@@ -1789,7 +1721,7 @@
     {
      "region": "asia_pacific",
      "region_label": "Asia-Pacific",
-     "description": "The outlet focuses on Pelicot's shock and her direct intent to pursue legal action against the publisher and author.",
+     "description": "The Asia-Pacific outlet reports primarily on Pelicot's shock and her direct intention to pursue legal action against the publisher and author [0].",
      "sources": [
       {
        "outlet": "Straits Times (World)",
@@ -1802,7 +1734,7 @@
     {
      "region": "global",
      "region_label": "Global / multilateral",
-     "description": "Outlets emphasize her status as a French feminist icon and symbol against sexual violence, detailing the unauthorized distribution of photos for a book campaign and the publisher's subsequent apology.",
+     "description": "Global outlets emphasize her emotional reaction of being shocked or humiliated, her status as a feminist icon from the 2024 trials, and the publisher's subsequent apology [1, 2].",
      "sources": [
       {
        "outlet": "France 24",
@@ -1851,18 +1783,12 @@
   },
   {
    "headline": "NATO Vows Space Defense Following Reports of Russian Nuclear Satellite",
-   "summary": "NATO has stated it will defend against threats in space following media reports that Russia plans to launch a satellite equipped with a nuclear warhead in the coming weeks. German media reports, citing unnamed German military and spy agency sources, prompted comments from NATO chief Mark Rutte.",
+   "summary": "NATO chief Mark Rutte stated that the alliance will defend against space threats in response to German media reports that Russia plans to launch a satellite equipped with a nuclear warhead in the coming weeks. The media reports cite unnamed German military and BND spy agency sources.",
    "confidence": "high",
    "key_facts": [
     {
-     "fact": "NATO vowed to defend against threats in space.",
+     "fact": "NATO chief Mark Rutte stated the alliance would defend against threats in space.",
      "sources": [
-      {
-       "outlet": "Straits Times (World)",
-       "title": "NATO vows space defence after Russia nuclear satellite report",
-       "url": "https://www.straitstimes.com/world/europe/nato-vows-space-defence-after-russia-nuclear-satellite-report",
-       "region": "asia_pacific"
-      },
       {
        "outlet": "France 24",
        "title": "NATO vows space defence after Russia nuclear satellite report",
@@ -1878,19 +1804,13 @@
      ]
     },
     {
-     "fact": "German media reported that Russia plans to launch a satellite with a nuclear warhead in the coming weeks.",
+     "fact": "German media reported that Russia plans to launch a satellite, dubbed “Sputnik-S,” equipped with a nuclear warhead in the coming weeks.",
      "sources": [
       {
        "outlet": "Straits Times (World)",
        "title": "NATO vows space defence after Russia nuclear satellite report",
        "url": "https://www.straitstimes.com/world/europe/nato-vows-space-defence-after-russia-nuclear-satellite-report",
        "region": "asia_pacific"
-      },
-      {
-       "outlet": "France 24",
-       "title": "NATO vows space defence after Russia nuclear satellite report",
-       "url": "https://www.france24.com/en/nato-vows-space-defence-after-russia-nuclear-satellite-report",
-       "region": "global"
       },
       {
        "outlet": "BBC World",
@@ -1901,18 +1821,7 @@
      ]
     },
     {
-     "fact": "NATO chief Mark Rutte addressed the reports on Monday.",
-     "sources": [
-      {
-       "outlet": "France 24",
-       "title": "NATO vows space defence after Russia nuclear satellite report",
-       "url": "https://www.france24.com/en/nato-vows-space-defence-after-russia-nuclear-satellite-report",
-       "region": "global"
-      }
-     ]
-    },
-    {
-     "fact": "The German media reports cited unnamed German military and BND spy agency sources.",
+     "fact": "The media reports cited unnamed German military and BND spy agency sources.",
      "sources": [
       {
        "outlet": "France 24",
@@ -1927,7 +1836,7 @@
     {
      "region": "asia_pacific",
      "region_label": "Asia-Pacific",
-     "description": "The outlet reports on NATO's space defense vow and the German media claims regarding the planned Russian satellite without additional commentary.",
+     "description": "The outlet reports the NATO vow and the German media claims regarding the planned nuclear satellite launch without mentioning specific NATO leadership figures.",
      "sources": [
       {
        "outlet": "Straits Times (World)",
@@ -1940,7 +1849,7 @@
     {
      "region": "global",
      "region_label": "Global / multilateral",
-     "description": "Outlets frame the story by highlighting NATO chief Mark Rutte's statements in response to German media reports involving military and intelligence sources.",
+     "description": "The outlets emphasize NATO chief Mark Rutte's direct response alongside the German media reports detailing the planned launch and intelligence sources.",
      "sources": [
       {
        "outlet": "France 24",

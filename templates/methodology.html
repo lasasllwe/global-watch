@@ -1,21 +1,29 @@
 {% extends "base.html" %}
 {% block title %}Method &amp; sources · Global Watch{% endblock %}
+{% block hero %}
+<section class="hero compact"><div class="wrap">
+  <p class="eyebrow">Transparency</p>
+  <h1>Method &amp; sources</h1>
+  <p class="meta">How a brief is made, and where the headlines come from.</p>
+</div></section>
+{% endblock %}
 {% block content %}
-<h1>Method &amp; sources</h1>
-<h3>How a brief is made</h3>
-<ol>
+<h2 class="section-title">How a brief is made</h2>
+<ol class="steps">
   <li><strong>Collect.</strong> Every day, headlines, short snippets and links are read from the public RSS feeds below. No full articles are copied.</li>
   <li><strong>Group.</strong> Headlines about the same event are grouped into stories. Only stories covered by at least two regions are kept, so the brief is not dominated by one part of the world.</li>
   <li><strong>Summarize.</strong> An AI model (Google Gemini) writes a neutral summary using only the grouped headlines, then describes how each region frames the story. Source links are attached by code, not written by the model.</li>
   <li><strong>Check.</strong> Entries without a valid citation are discarded automatically. Summaries can still be wrong: follow the links.</li>
 </ol>
-<h3>Source labels</h3>
-<p class="small">Each outlet is labeled by region and ownership (independent, private, public broadcaster, NGO, state-funded) so you can see where a framing comes from. State-funded outlets are only included when clearly labeled.</p>
-<h3>Outlets</h3>
+
+<h2 class="section-title" style="margin-top:34px">Source labels</h2>
+<p>Each outlet is labeled by region and ownership (independent, private, public broadcaster, NGO, state-funded) so you can see where a framing comes from. State-funded outlets are only included when clearly labeled.</p>
+
+<h2 class="section-title" style="margin-top:34px">Outlets</h2>
 <table>
   <tr><th>Outlet</th><th>Region</th><th>Ownership</th><th>Active</th></tr>
   {% for s in sources %}
-  <tr><td>{{ s.name }}</td><td>{{ region_labels.get(s.region, s.region) }}</td><td>{{ s.ownership }}</td><td>{{ "yes" if s.get("enabled", True) else "no" }}</td></tr>
+  <tr><td>{{ s.name }}</td><td><span class="tag r-{{ s.region }}">{{ region_labels.get(s.region, s.region) }}</span></td><td>{{ s.ownership }}</td><td>{{ "yes" if s.get("enabled", True) else "no" }}</td></tr>
   {% endfor %}
 </table>
 {% endblock %}

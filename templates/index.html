@@ -1,17 +1,48 @@
 {% extends "base.html" %}
+{% block hero %}
+<section class="hero"><div class="wrap">
+  <p class="eyebrow">Weekly · AI-assisted · 6 regions</p>
+  <h1>The world this week, <span>through every region's eyes</span></h1>
+  <p class="lead">One story, many angles. Every week, headlines from outlets on every continent are grouped by event and summarized, and you see how each region frames it. Every claim links to its sources.</p>
+  <div class="chips">{% for key, label in region_labels.items() %}<span class="chip r-{{ key }}">{{ label }}</span>{% endfor %}</div>
+  {% if briefs %}
+  <div class="stats">
+    <div class="stat"><b>{{ briefs[0].stories|length }}</b><span>stories this week</span></div>
+    <div class="stat"><b>{{ briefs[0].items_analyzed }}</b><span>headlines analyzed</span></div>
+    <div class="stat"><b>{{ briefs|length }}</b><span>brief{{ "s" if briefs|length > 1 }} published</span></div>
+  </div>
+  {% endif %}
+</div></section>
+{% endblock %}
 {% block content %}
-<h1>The world this week, seen from every region</h1>
-<p>Each week an automated pipeline reads public headlines from outlets across six regions, groups them into stories,
-and summarizes each story with an AI model, including <strong>how different regions frame it</strong>. Every claim links to its sources.</p>
 {% if briefs %}
-  <h3>Weekly briefs</h3>
-  <ul>
-  {% for b in briefs %}
-    <li><a href="{{ root }}/briefs/{{ b.week }}.html">{{ b.week }}</a>
-      <span class="small">· {{ b.period_start }} to {{ b.period_end }} · {{ b.stories|length }} stories · {{ b.items_analyzed }} headlines analyzed</span></li>
+  <h2 class="section-title">Top stories · {{ briefs[0].week }}</h2>
+  <div class="grid">
+  {% for s in briefs[0].stories[:3] %}
+    <a class="teaser" href="{{ root }}/briefs/{{ briefs[0].week }}.html#story-{{ loop.index }}">
+      <div class="stripe">{% for r in s.regions %}<i class="r-{{ r }}"></i>{% endfor %}</div>
+      <div class="body">
+        <div>{% for r in s.regions %}<span class="tag r-{{ r }}">{{ region_labels.get(r, r) }}</span>{% endfor %}</div>
+        <h3>{{ s.headline }}</h3>
+        <p class="small">{{ s.summary[:130] }}{% if s.summary|length > 130 %}…{% endif %}</p>
+      </div>
+    </a>
   {% endfor %}
-  </ul>
+  </div>
+
+  <h2 class="section-title" style="margin-top:38px">All weekly briefs</h2>
+  <div class="grid">
+  {% for b in briefs %}
+    <a class="week" href="{{ root }}/briefs/{{ b.week }}.html">
+      <div class="stripe">{% for key in region_labels %}<i class="r-{{ key }}"></i>{% endfor %}</div>
+      <div class="body">
+        <div class="wk">{{ b.week }}</div>
+        <div class="small">{{ b.period_start }} to {{ b.period_end }}<br>{{ b.stories|length }} stories · {{ b.items_analyzed }} headlines</div>
+      </div>
+    </a>
+  {% endfor %}
+  </div>
 {% else %}
-  <p class="meta">The first brief will appear here soon.</p>
+  <p class="small">The first brief will appear here soon.</p>
 {% endif %}
 {% endblock %}

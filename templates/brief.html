@@ -1,38 +1,45 @@
 {% extends "base.html" %}
 {% block title %}{{ brief.week }} · Global Watch{% endblock %}
+{% block hero %}
+<section class="hero compact"><div class="wrap">
+  <p class="eyebrow">Weekly brief</p>
+  <h1>{{ brief.week }}</h1>
+  <p class="meta">{{ brief.period_start }} to {{ brief.period_end }} · {{ brief.stories|length }} stories · {{ brief.items_analyzed }} headlines analyzed · model: {{ brief.model }}</p>
+</div></section>
+{% endblock %}
 {% block content %}
-<h1>Brief {{ brief.week }}</h1>
-<p class="meta">{{ brief.period_start }} to {{ brief.period_end }} · {{ brief.stories|length }} stories · {{ brief.items_analyzed }} headlines analyzed · model: {{ brief.model }}</p>
-
 {% for s in brief.stories %}
-<section class="story">
-  <h2>{{ s.headline }}</h2>
-  <div>
-    {% for r in s.regions %}<span class="tag">{{ region_labels.get(r, r) }}</span>{% endfor %}
-    {% if s.confidence == "low" %}<span class="tag low">Low confidence: sources unclear or conflicting</span>{% endif %}
+<section class="story" id="story-{{ loop.index }}">
+  <div class="stripe">{% for r in s.regions %}<i class="r-{{ r }}"></i>{% endfor %}</div>
+  <div class="inner">
+    <h2>{{ s.headline }}</h2>
+    <div>
+      {% for r in s.regions %}<span class="tag r-{{ r }}">{{ region_labels.get(r, r) }}</span>{% endfor %}
+      {% if s.confidence == "low" %}<span class="tag low">Low confidence: sources unclear or conflicting</span>{% endif %}
+    </div>
+    <p class="summary">{{ s.summary }}</p>
+
+    <h3>Key facts</h3>
+    <ul>
+    {% for f in s.key_facts %}
+      <li>{{ f.fact }}
+        <span class="small src">({% for src in f.sources %}<a href="{{ src.url }}" rel="noopener">{{ src.outlet }}</a>{% if not loop.last %}, {% endif %}{% endfor %})</span></li>
+    {% endfor %}
+    </ul>
+
+    {% if s.framing %}
+    <h3>How regions frame it</h3>
+    <ul class="frames">
+    {% for fr in s.framing %}
+      <li class="frame r-{{ fr.region }}"><strong>{{ fr.region_label }}:</strong> {{ fr.description }}
+        <span class="small src">({% for src in fr.sources %}<a href="{{ src.url }}" rel="noopener">{{ src.outlet }}</a>{% if not loop.last %}, {% endif %}{% endfor %})</span></li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    <h3>All sources for this story</h3>
+    <p class="small allsrc">{% for l in s.all_links %}<a href="{{ l.url }}" rel="noopener">{{ l.outlet }}: {{ l.title }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>
   </div>
-  <p>{{ s.summary }}</p>
-
-  <h3>Key facts</h3>
-  <ul>
-  {% for f in s.key_facts %}
-    <li>{{ f.fact }}
-      <span class="small">({% for src in f.sources %}<a href="{{ src.url }}" rel="noopener">{{ src.outlet }}</a>{% if not loop.last %}, {% endif %}{% endfor %})</span></li>
-  {% endfor %}
-  </ul>
-
-  {% if s.framing %}
-  <h3>How regions frame it</h3>
-  <ul>
-  {% for fr in s.framing %}
-    <li><strong>{{ fr.region_label }}:</strong> {{ fr.description }}
-      <span class="small">({% for src in fr.sources %}<a href="{{ src.url }}" rel="noopener">{{ src.outlet }}</a>{% if not loop.last %}, {% endif %}{% endfor %})</span></li>
-  {% endfor %}
-  </ul>
-  {% endif %}
-
-  <h3>All sources for this story</h3>
-  <p class="small">{% for l in s.all_links %}<a href="{{ l.url }}" rel="noopener">{{ l.outlet }}: {{ l.title }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>
 </section>
 {% endfor %}
 {% endblock %}
